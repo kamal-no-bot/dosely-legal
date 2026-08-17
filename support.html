@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dosely Support</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#fff; --fg:#1a1a1a; --muted:#555;
+            --accent:#4353C4; --rule:#e5e5e5; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#101120; --fg:#e9eaf3; --muted:#9fa3b6;
+              --accent:#8A93F0; --rule:#26283b; } }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { background:var(--bg); color:var(--fg);
+           font:17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI",
+           Roboto, Helvetica, Arial, sans-serif; padding:3rem 1.25rem 5rem; }
+    main { max-width:44rem; margin:0 auto; }
+    h1 { font-size:2rem; line-height:1.2; margin-bottom:.35rem; }
+    .meta { color:var(--muted); font-size:.95rem; margin-bottom:2.25rem; }
+    h2 { font-size:1.25rem; margin:2.25rem 0 .6rem; padding-top:1.5rem;
+         border-top:1px solid var(--rule); }
+    h3 { font-size:1.02rem; margin:1.35rem 0 .3rem; }
+    p { margin-bottom:.9rem; } ul { margin:0 0 .9rem 1.4rem; }
+    li { margin-bottom:.45rem; } strong { font-weight:600; }
+    .highlight { border-left:3px solid var(--accent); padding:.75rem 1rem;
+                 margin:1.25rem 0; border-radius:0 8px 8px 0;
+                 background:color-mix(in srgb, var(--accent) 7%, var(--bg)); }
+    a { color:var(--accent); }
+  </style>
+</head>
+<body><main>
+  <h1>Dosely Support</h1>
+  <p class="meta">Medication reminders that actually wake you up</p>
+
+  <div class="highlight"><p>Need a hand? Email
+  <a href="mailto:engr.kamalnasir@gmail.com">engr.kamalnasir@gmail.com</a>
+  and describe what happened. Replies usually arrive within two business
+  days.</p></div>
+
+  <h2>Common questions</h2>
+
+  <h3>My alarm did not ring</h3>
+  <p>Check three things, in this order. First, Settings, Dosely, and confirm
+  alarm permission is granted; Dosely shows a banner in the app when it is
+  not. Second, confirm the medication is set to <strong>alarm grade</strong>:
+  on the free tier one medication gets the full alarm treatment and the rest
+  send standard reminders. Third, confirm the dose time has not already been
+  logged, since a logged dose does not ring.</p>
+
+  <h3>What is the difference between an alarm and a reminder?</h3>
+  <p>An alarm is full screen and sounds even when your phone is on Silent or
+  in a Focus mode, the same way a Clock app alarm behaves. A standard
+  reminder is an ordinary notification and obeys Silent and Focus. Alarms are
+  the reason Dosely exists.</p>
+
+  <h3>Stopping the alarm did not mark the dose as taken</h3>
+  <p>That is deliberate. Stopping only silences the sound. A dose stays
+  unresolved until you log it as taken or skipped, which is what makes the
+  history worth anything. You can log from the alarm, from the notification
+  without unlocking, from the widget, from your Apple Watch, from Control
+  Center, by asking Siri, or in the app.</p>
+
+  <h3>What is free, and what is Pro?</h3>
+  <p>Free forever: unlimited medications with standard reminders, every
+  schedule type, one medication with the full alarm treatment, your complete
+  history and stats, the Apple Watch app, the next dose widget, discreet
+  mode, Siri and Shortcuts, and a CSV export of everything.</p>
+  <p>Dosely Pro adds alarms for every medication rather than one, escalation
+  rules you control, refill tracking counted from your own schedule, a
+  printable adherence report for your doctor, and the heatmap widgets.</p>
+
+  <h3>I paid but Pro is locked</h3>
+  <p>Open the purchase screen and tap Restore Purchases, making sure you are
+  signed in with the Apple Account that made the purchase. Subscriptions are
+  Family Shareable, so a family organizer's purchase covers the family.</p>
+
+  <h3>How do I cancel or manage my subscription?</h3>
+  <p>Subscriptions are managed by Apple, not by us: Settings app, tap your
+  name, then Subscriptions. Cancelling there stops the next renewal and Pro
+  stays active until the period ends.</p>
+
+  <h3>My widget or complication shows nothing</h3>
+  <p>Open Dosely once after installing or updating so it can write a fresh
+  snapshot, then check that at least one dose is scheduled ahead. A Pro tile
+  on the free tier reads "Open Dosely to enable" by design.</p>
+
+  <h3>Importing from Apple Health</h3>
+  <p>Settings tab, Apple Health section at the top, Import medications from
+  Health. It is free and never behind the paywall. Dosely reads only, and
+  writes nothing back to Health. If nothing appears, confirm you have
+  medications saved in the Health app itself and that you allowed access when
+  asked.</p>
+
+  <h3>Does my data sync between my devices?</h3>
+  <p>Yes, optionally, through your own private iCloud. Turn it on in
+  Settings. Nothing passes through a server of ours.</p>
+
+  <h3>How do I get my data out?</h3>
+  <p>Settings, then export. CSV is free and contains everything. Pro adds a
+  printable PDF adherence report and a shorter caregiver summary.</p>
+
+  <h3>Which devices does Dosely need?</h3>
+  <p>Dosely requires <strong>iOS 26.0 or later</strong> on iPhone or iPad.
+  This is not a casual minimum: the real alarm feature is built on Apple's
+  AlarmKit, which shipped with iOS 26 and cannot be back-deployed. The Apple
+  Watch app requires watchOS 26.0.</p>
+
+  <h2>A note on what Dosely is</h2>
+  <p>Dosely reminds and records. It is <strong>not a medical device</strong>
+  and gives no medical advice, no dosing guidance and no drug interaction
+  warnings. Schedules, taper phases and as-needed intervals are values you
+  enter from your own prescriber. Always follow your prescriber and your
+  pharmacist over anything an app tells you.</p>
+
+  <h2>Links</h2>
+  <ul>
+    <li><a href="index.html">Privacy Policy</a></li>
+    <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (Apple standard EULA)</a></li>
+    <li><a href="mailto:engr.kamalnasir@gmail.com">engr.kamalnasir@gmail.com</a></li>
+  </ul>
+</main></body>
+</html>
